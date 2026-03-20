@@ -1,7 +1,7 @@
 package TripillarAssignment;
 import java.util.Scanner;
 
-public class Factorial {
+public class Multiplication{
 
     public static void main(String[] args) {
 
@@ -10,13 +10,9 @@ public class Factorial {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        int fact = 1;
-
-        for (int i = 1; i <= n; i++) {
-            fact *= i;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + " x " + i + " = " + (n * i));
         }
-
-        System.out.println("Factorial: " + fact);
 
         sc.close();
     }

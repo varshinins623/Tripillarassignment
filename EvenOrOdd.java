@@ -1,7 +1,7 @@
 package TripillarAssignment;
 import java.util.Scanner;
 
-public class Factorial {
+public class EvenOrOdd {
 
     public static void main(String[] args) {
 
@@ -10,14 +10,13 @@ public class Factorial {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        int fact = 1;
-
-        for (int i = 1; i <= n; i++) {
-            fact *= i;
-        }
-
-        System.out.println("Factorial: " + fact);
+        if (n % 2 == 0)
+            System.out.println("Even");
+        else
+            System.out.println("Odd");
 
         sc.close();
     }
 }
+
+
